@@ -1,5 +1,5 @@
 # Storymodelers-Rosetta-Stone-Project
-🔹 1. Strategic Vision & Framing
+
 ## 🎯 Objective:
 Develop a compact, intelligent, and portable device that captures speech and environmental signals during real-world meetings, delivering actionable insights via embedded AI.
 
