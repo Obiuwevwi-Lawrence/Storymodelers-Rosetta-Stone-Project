@@ -6,7 +6,7 @@ Develop a compact, intelligent, and portable device that captures speech and env
 ## 🚀 Positioning:
 This is not merely a sensor hub—it is a participatory AI teammate, capable of observing, interpreting, and enhancing human interaction. It aligns with the AFOSR, MURI, and Minerva themes on team science, situational awareness, and adaptive decision-making support.
 
-🔹 2. Phase 1: Discovery & Requirements Analysis
+## 🔹 2. Phase 1: Discovery & Requirements Analysis
 🔍 Key Steps:
 
 Stakeholder Interviews: Capture perspectives from engineers, social scientists, and intended end-users.
