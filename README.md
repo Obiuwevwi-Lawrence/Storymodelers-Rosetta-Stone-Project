@@ -1,89 +1,68 @@
-# Storymodelers-Rosetta-Stone-Project
+# 🪨 Storymodelers' Rosetta Stone
 
-## 🎯 Objective:
-Develop a compact, intelligent, and portable device that captures speech and environmental signals during real-world meetings, delivering actionable insights via embedded AI.
+**An AI-Enabled Device for Capturing, Analyzing, and Modeling Human Team Dynamics**
 
-## 🚀 Positioning:
-This is not merely a sensor hub—it is a participatory AI teammate, capable of observing, interpreting, and enhancing human interaction. It aligns with the AFOSR, MURI, and Minerva themes on team science, situational awareness, and adaptive decision-making support.
+---
 
-## 🔹 2. Phase 1: Discovery & Requirements Analysis
-🔍 Key Steps:
+## 📖 Overview
 
-Stakeholder Interviews: Capture perspectives from engineers, social scientists, and intended end-users.
+The Storymodelers' Rosetta Stone is a portable, sensor-integrated AI system designed to capture multimodal data during real-world team interactions. By combining speech, environmental, and physiological signals, the device enables advanced analysis of group dynamics, emotional arousal, and communication patterns in collaborative environments.
 
-Literature Review: Identify best practices and gaps from works by Fiore, Cooke, Seeber, etc.
+Originally developed for research into AI-human teaming, participatory research, and interdisciplinary collaboration, the Rosetta Stone provides an open foundation for studying human interaction in meetings, workshops, clinical settings, or field studies.
 
-## Use Case Modeling:
+---
 
-📌 Scenario 1: Boardroom decision-making
+## 🚀 Key Features
 
-📌 Scenario 2: Interdisciplinary research teams
+✅ Speech Detection and Transcription  
+✅ Environmental Sensing (CO2, Temperature, Humidity, Light)  
+✅ Team Dynamics and Interaction Analysis  
+✅ Emotional Arousal Detection Pipeline (In Progress)  
+✅ Real-Time Audio Recording and Cloud Upload  
+✅ AI-Powered Meeting Summarization and Moderation Support  
+✅ Fully Portable, Rechargeable Design  
+✅ Modular Sensor Integration for Future Expansion  
 
-📌 Scenario 3: High-stakes negotiation sessions
+---
 
+## 🛠 System Components
 
-## 🔹 3. Phase 2: System Architecture & Prototyping
-## 🔧 Hardware Stack:
+| Component             | Description                                           |
+|----------------------|-------------------------------------------------------|
+| **ESP32**            | Microcontroller handling environmental sensors        |
+| **ReSpeaker Mic Array** | Captures speech and sound in the environment       |
+| **Raspberry Pi 5**   | Central AI unit for processing, transcription, and storage |
+| **CO2 Sensor**       | Monitors carbon dioxide levels                        |
+| **Temperature/Humidity Sensor** | Tracks ambient conditions                 |
+| **Light Sensor**     | Measures environmental light intensity                |
+| **LiPo Batteries**   | Dual 3.7V 10,000mAh for portable operation            |
+| **Enclosure**        | Custom 3D-printed housing for device protection       |
 
-Raspberry Pi 5: Central processing and AI inference
+*Planned*: Integration of physiological sensors (e.g., heart rate, GSR) and emotional analysis.
 
-ESP32: Manages environmental sensing and wireless connectivity
+---
 
-ReSpeaker Mic Array: Directional, multi-speaker speech capture
+## 🌍 Use Case Examples
 
-Sensors: Light, CO₂, Temperature, Humidity (expandable to VOCs and others)
+- Multidisciplinary Team Research  
+- Participatory AI Workshops  
+- Meeting Moderation and Feedback  
+- Team Science and Collaboration Studies  
+- Clinical Communication Analysis  
+- Military or High-Stakes Team Interaction Research  
 
-## 💻 Software Stack:
+---
 
-Linux OS + Python
+## ⚡ Quick Start
 
-On-device Speech Recognition: Whisper or Vosk
+**Hardware Setup**
+1. Assemble sensors and microcontrollers as per [docs/architecture.md](docs/architecture.md)
+2. Ensure batteries are charged and securely connected
 
-Signal Processing: SciPy, OpenCV (future video support)
-
-Cloud Upload: Google Cloud Storage with secure REST API
-
-## 🛠 Prototyping Approach:
-
-Test-Driven Development (TDD)
-
-Modular hardware and software design
-
-Over-the-air (OTA) firmware update readiness
-
-## 🔹 4. Phase 3: AI Integration & Analytics Layer
-🧠 Key AI Features:
-
-Speech Analytics: Transcription, speaker turns, tone/interruption patterns
-
-Environmental Analytics: Real-time insight into meeting conditions
-
-Arousal Mapping (Future): Sync with GSR/HR data for emotional peaks
-
-## 🧩 Model Considerations:
-
-Lightweight, real-time inference models
-
-Embedding and summarization for storage efficiency and privacy
-
-Optional Edge TPU upgrade for future performance scaling
-
-## 🔹 5. Phase 4: Testing & Validation
-🧪 Testing Areas:
-
-Functional: Verify audio, sensors, uploads, and control interfaces
-
-Performance: Real-time benchmarks and responsiveness
-
-Reliability: Extended 8-hour session stress testing
-
-Security: Cloud encryption and penetration tests
-
-📊 Pilot Study:
-
-Run in 3 controlled environments
-
-Collect user feedback via survey forms
-
-Compare human feedback with system-captured insights
-
+**Software Installation**
+```bash
+# On Raspberry Pi 5
+git clone https://github.com/YourUsername/storymodelers-rosetta-stone.git
+cd storymodelers-rosetta-stone/software/raspberry_pi
+pip install -r requirements.txt
+python recorder.py
