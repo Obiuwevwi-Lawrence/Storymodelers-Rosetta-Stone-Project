@@ -59,10 +59,4 @@ Originally developed for research into AI-human teaming, participatory research,
 1. Assemble sensors and microcontrollers as per [docs/architecture.md](docs/architecture.md)
 2. Ensure batteries are charged and securely connected
 
-**Software Installation**
-```bash
-# On Raspberry Pi 5
-git clone https://github.com/YourUsername/storymodelers-rosetta-stone.git
-cd storymodelers-rosetta-stone/software/raspberry_pi
-pip install -r requirements.txt
-python recorder.py
+
