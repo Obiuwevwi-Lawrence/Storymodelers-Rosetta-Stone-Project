@@ -29,3 +29,55 @@ This document outlines the complete hardware and software architecture, data flo
 _See `docs/images/system_diagram.png` for a visual overview._  
 
 
+---
+
+## 🔄 Data Flow Summary
+
+1. **Environmental Data Collection**  
+   ESP32 reads environmental sensors via I2C and transmits data to the Raspberry Pi 5 via UART or I2C.
+
+2. **Speech Detection & Recording**  
+   ReSpeaker captures audio, passed to Raspberry Pi for recording, diarization, and transcription.
+
+3. **AI Processing**  
+   Raspberry Pi 5 runs:
+   - Speech-to-text transcription
+   - Speaker segmentation (diarization)
+   - Meeting interaction modeling (future)
+   - Emotional arousal detection pipeline (planned)
+
+4. **Data Storage**  
+   - Processed data is stored locally and/or uploaded to Google Cloud Storage for analysis.
+
+---
+
+## 🧩 Modular Design Philosophy
+
+The Rosetta Stone is designed with modularity in mind, allowing:
+- Easy hardware upgrades (sensor additions, replacements)
+- AI model swaps or retraining for new use cases
+- Integration of physiological sensors in future phases
+
+---
+
+## 🔋 Power Considerations
+
+The device is powered by dual LiPo 3.7V 10,000mAh batteries, supporting hours of continuous operation, ideal for workshops, meetings, and mobile deployments.
+
+---
+
+## 📅 Development Roadmap
+
+✅ Environmental and Speech Data Capture  
+✅ Basic Transcription and Diarization  
+🟡 AI-Powered Meeting Moderation (In Progress)  
+🟡 Emotional Arousal Detection (In Progress)  
+🟡 Real-Time Feedback and Alerts (Planned)  
+
+---
+
+**For technical setup, see [docs/setup_guide.md](setup_guide.md)**  
+**For component specifications, see [docs/sensor_specs.md](sensor_specs.md)**  
+
+---
+
