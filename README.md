@@ -31,8 +31,8 @@ This is the PCB layout design for the Storymodelers Rosetta Stone device, integr
 ## 🚀 Key Features
 
 ✅ Speech Detection and Transcriptions 
-✅ Environmental Sensing (CO2, Temperature, Humidity, Light)  
 ✅ Team Dynamics and Interaction Analysis  
+✅ Environmental Sensing (CO2, Temperature, Humidity, Light)  
 ✅ Emotional Arousal Detection Pipeline (In Progress)  
 ✅ Real-Time Audio Recording and Cloud Upload  
 ✅ AI-Powered Meeting Summarization and Moderation Support  
