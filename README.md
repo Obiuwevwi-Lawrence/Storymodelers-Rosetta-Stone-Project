@@ -14,7 +14,7 @@ Originally developed for research into AI-human teaming, participatory research,
 
 ## 🚀 Key Features
 
-✅ Speech Detection and Transcription  
+✅ Speech Detection and Transcriptions 
 ✅ Environmental Sensing (CO2, Temperature, Humidity, Light)  
 ✅ Team Dynamics and Interaction Analysis  
 ✅ Emotional Arousal Detection Pipeline (In Progress)  
