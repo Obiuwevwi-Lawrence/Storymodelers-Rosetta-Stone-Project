@@ -14,9 +14,11 @@ Originally developed for research into AI-human teaming, participatory research,
 This is a hardware schematic for the Storymodelers Rosetta Stone device, integrating sensors and controls with a Raspberry Pi 5 and ESP32.
 
 <img width="997" height="771" alt="Rosetta Schematics" src="https://github.com/user-attachments/assets/d25ce756-abe3-43cf-b1d6-66dab9ee7a2b" />
-This is the circuit schematic of the Storymodelers Rosetta Stone device, detailing electrical connections. This schematic provides the electrical blueprint for integrating sensors, power, and user controls into a cohesive data collection and analysis device for environmental monitoring and speech interaction.
+This is the circuit schematic of the Storymodelers Rosetta Stone device, detailing electrical connections. This schematic provides the electrical blueprint for 
+integrating sensors, power, and user controls into a cohesive data collection and analysis device for environmental monitoring and speech interaction.
 
 <img width="713" height="685" alt="image" src="https://github.com/user-attachments/assets/64e53f3c-35cd-488c-975e-d0d7d5a333a1" />
+This is the PCB layout design for the Storymodelers Rosetta Stone device integrating all components onto a printed circuit board
 
 
 ---
