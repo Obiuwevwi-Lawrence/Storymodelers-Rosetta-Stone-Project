@@ -12,7 +12,7 @@ Originally developed for research into AI-human teaming, participatory research,
 
 <img width="1177" height="766" alt="Rosetta" src="https://github.com/user-attachments/assets/e13f285f-5b23-45f4-a6cc-957e64cd5ac2" />
 
-## Hardware Schematic:
+**Hardware Schematic:**
 This is a hardware schematic for the Storymodelers Rosetta Stone device, integrating sensors and controls with a Raspberry Pi 5 and ESP32.
 
 <img width="997" height="771" alt="Rosetta Schematics" src="https://github.com/user-attachments/assets/d25ce756-abe3-43cf-b1d6-66dab9ee7a2b" />
