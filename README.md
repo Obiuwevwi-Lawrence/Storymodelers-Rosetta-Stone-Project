@@ -20,7 +20,7 @@ This is a hardware schematic for the Storymodelers Rosetta Stone device, integra
 **Circuit Schematic:**
 This is the circuit schematic of the Storymodelers Rosetta Stone device, detailing the electrical connections between components. It provides the blueprint for integrating sensors, power, and user controls into a cohesive data collection and analysis device for environmental monitoring and speech interaction.
 
-<img width="713" height="685" alt="image" src="https://github.com/user-attachments/assets/64e53f3c-35cd-488c-975e-d0d7d5a333a1" />
+<img width="702" height="676" alt="image" src="https://github.com/user-attachments/assets/95626fcf-ba46-44b6-b97b-bb169eece26a" />
 
 **PCB Layout:**
 This is the PCB layout design for the Storymodelers Rosetta Stone device, integrating all components onto a printed circuit board for compact, reliable, and organized hardware assembly.
