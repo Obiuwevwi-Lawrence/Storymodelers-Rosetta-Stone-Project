@@ -72,7 +72,7 @@ This is the PCB layout design for the Storymodelers Rosetta Stone device, integr
 ## ⚡ Quick Start
 
 **Hardware Setup**
-1. Assemble sensors and microcontrollers as per [docs/architecture.md](docs/architecture.md)
+1. Assemble sensors and microcontrollers as per schematics
 2. Ensure batteries are charged and securely connected
 
 
