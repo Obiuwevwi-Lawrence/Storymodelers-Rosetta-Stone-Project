@@ -15,7 +15,7 @@ This document outlines the complete hardware and software architecture, data flo
 | Category       | Component                         | Function                                      |
 |----------------|-----------------------------------|-----------------------------------------------|
 | **Microcontroller** | ESP32                       | Reads environmental sensor data               |
-| **Environmental Sensors** | CO2, Temp, Humidity, Light | Measures ambient environmental conditions |
+| **Environmental Sensors** | CO2, Temp, Pressure, Humidity, Light | Measures ambient environmental conditions |
 | **Audio Interface** | ReSpeaker Mic Array         | Captures speech and sound for analysis        |
 | **Processing Unit** | Raspberry Pi 5              | Runs AI models, records data, handles storage |
 | **Power Supply** | 2x LiPo 3.7V 10,000mAh Batteries | Portable operation                           |
