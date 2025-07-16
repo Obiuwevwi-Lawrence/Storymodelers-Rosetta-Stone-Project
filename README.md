@@ -58,7 +58,7 @@ This is the PCB layout design for the Storymodelers Rosetta Stone device, integr
 
 ---
 
-## 🌍 Use Case Examples
+## 🌍 Possible Use Case Examples
 
 - Multidisciplinary Team Research  
 - Participatory AI Workshops  
