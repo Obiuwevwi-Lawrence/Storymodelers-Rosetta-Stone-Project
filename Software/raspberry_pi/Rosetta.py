@@ -172,3 +172,6 @@ if __name__ == "__main__":
 
     print("System ready. Press start button to record.")
     pause()
+
+
+# ---------------------- MAIN EXECUTION ----------------------
