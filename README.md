@@ -8,7 +8,7 @@
 
 The Storymodelers' Rosetta Stone is a portable, sensor-integrated AI system designed to capture multimodal data during real-world team interactions. By combining speech, environmental, and physiological signals, the device enables advanced analysis of group dynamics, emotional arousal, and communication patterns in collaborative environments.
 
-Originally developed for research into AI-human teaming, participatory research, and interdisciplinary collaboration, the Rosetta Stone provides an open foundation for studying human interaction in meetings, workshops, clinical settings, or field studies.
+This system is developed for research into AI-human teaming, participatory research, and interdisciplinary collaboration, the Rosetta Stone provides an open foundation for studying human interaction in meetings, workshops, clinical settings, or field studies.
 
 <img width="1177" height="766" alt="Rosetta" src="https://github.com/user-attachments/assets/e13f285f-5b23-45f4-a6cc-957e64cd5ac2" />
 
